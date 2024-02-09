@@ -17,5 +17,6 @@ int MPI_Bcast_c(void *buffer, MPI_Count count, MPI_Datatype datatype,
       subcounti = subcountc;
       MPI_Bcast(buffer+ic, subcounti, datatype, root, comm);
     }
+  return MPI_SUCCESS;
 }
 
