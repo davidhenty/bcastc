@@ -13,7 +13,7 @@ INC= \
 SRC= \
 	testbcastc.c \
 	MPI_Bcast_c.c \
-	arralloc.c
+	arraymalloc.c
 
 #
 # No need to edit below this line
