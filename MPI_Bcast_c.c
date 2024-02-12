@@ -7,7 +7,7 @@ int MPI_Bcast_c(void *buffer, MPI_Count count, MPI_Datatype datatype,
 
   int subcounti;
 
-  static int chunki = 0x40000000; // 2^31
+  static int chunki = 0x40000000; // 2^30
 
   MPI_Type_get_extent_x(datatype, &lbc, &extentc);
 
